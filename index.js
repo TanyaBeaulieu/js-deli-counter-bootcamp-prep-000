@@ -25,6 +25,6 @@ function currentLine (katzDeliLine) {
       j = i + 1
       line = (line + j + ". " + katzDeliLine[i] + ", ")
     }
-    return (`The line is currently: ${line.slice(-2)}`)
+    return (`The line is currently: ${line.slice(0, line.length - 2)}`)
   }
 }
