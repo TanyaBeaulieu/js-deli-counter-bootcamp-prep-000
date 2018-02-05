@@ -19,12 +19,11 @@ function currentLine (katzDeliLine) {
       return ("The line is currently empty.")
       }
   else {
-    do {
-        array.pop();
-    } while (array.length > 0 && maybeTrue());  
-    return array;
-
-      for (let i = 0; i < 25; i++) {
-      return (`Currently serving ${served}.`)
+    line = ''
+    for (let i = 0; i < katzDeliLine.length; i++) {
+      j = i + 1
+      line = (j + ". " + katzDeliLine[i])
+    }
+    return (`The line is currently: ${line}.`)
   }
 }
