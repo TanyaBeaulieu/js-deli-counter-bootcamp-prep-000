@@ -4,6 +4,8 @@ function takeANumber(katzDeliLine, customer) {
   return (`Welcome, ${customer}. You are number ${a+1} in line.`);
 }
 
-function nowServing(){
-  if 
+function nowServing(katzDeliLine){
+  if (katzDeliLine.length = 0) {
+      return ('')
+  }
 }
