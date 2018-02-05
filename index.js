@@ -3,3 +3,5 @@ function takeANumber(katzDeliLine, customer) {
   var a = katzDeliLine.indexOf(customer);
   return (`Welcome, ${customer}. You are number ${a+1} in line.`);
 }
+
+function 
