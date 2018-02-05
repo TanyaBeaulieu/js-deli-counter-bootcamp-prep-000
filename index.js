@@ -10,7 +10,7 @@ function nowServing(katzDeliLine){
       }
   else {
       var served = katzDeliLine.shift()
-      return (`Curently serving ${served}.`)
+      return (`Currently serving ${served}.`)
   }
 }
 
